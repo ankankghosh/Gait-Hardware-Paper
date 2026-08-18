@@ -1,0 +1,10 @@
+config,model,use_features,feature_method,pooled_accuracy,mean_over_subjects,std_over_subjects,worst_subject_acc,pooled_macro_f1
+IMU,lstm,True,concat,0.6609,0.6576,0.155,0.3958,0.6633
+IMU,gru,True,concat,0.6233,0.6202,0.1658,0.3375,0.6269
+IMU,cnn,True,concat,0.607,0.601,0.2214,0.2313,0.6091
+Pressure,lstm,True,concat,0.778,0.7835,0.1201,0.5844,0.7775
+Pressure,gru,True,concat,0.7869,0.7822,0.1098,0.625,0.7839
+Pressure,cnn,True,concat,0.8477,0.8393,0.099,0.7311,0.846
+IMU+Pressure,lstm,True,concat,0.8235,0.8161,0.1079,0.6813,0.8255
+IMU+Pressure,gru,True,concat,0.8175,0.8108,0.1088,0.6521,0.8188
+IMU+Pressure,cnn,True,concat,0.8016,0.7905,0.1608,0.4792,0.8029
